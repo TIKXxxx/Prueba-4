@@ -1,4 +1,4 @@
-from operaciones import validar_nombre, validar_edad, validar_nota, agregar_estudiante, buscar_estudiante, eliminar_estuadiante, mostrar_estudiantes, actualizar_estado, menu, mostrar_opcion
+from ejercicio import validar_nombre, validar_edad, validar_nota, agregar_estudiante, buscar_estudiante, eliminar_estuadiante, mostrar_estudiantes, actualizar_estado, menu, mostrar_opcion
 
 estudiantes = []
 mostrar_menu = True
@@ -8,15 +8,15 @@ while mostrar_menu:
     opcion = mostrar_opcion()
 
     if opcion == 1:
-        agregar_estudiante()
+        Agregar_producto()
     elif opcion == 2:
-        buscar_estudiante()
+        buscar_producto()
     elif opcion == 3:
-        eliminar_estuadiante()
+        eliminar_producto()
     elif opcion == 4:
-        actualizar_estado()
+        actualizar_disponibilidad()
     elif opcion == 5:
-        mostrar_estudiantes()
+        mostrar_productos()
     elif opcion == 6:
         print("Gracias por usar el sistema. Vuelva Pronto.")
         mostrar_menu = False
